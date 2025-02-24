@@ -1,0 +1,26 @@
+{
+  "name": "host-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "NEXT_PRIVATE_LOCAL_WEBPACK=true next dev -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@module-federation/nextjs-mf": "^8.8.15",
+    "@reduxjs/toolkit": "^2.5.1",
+    "antd": "^5.24.2",
+    "next": "15.1.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
+    "webpack": "^5.98.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.7"
+  }
+}
